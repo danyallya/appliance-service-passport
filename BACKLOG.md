@@ -4,7 +4,7 @@ Prioritize user risk and evidence over polish. Estimates are focused engineering
 
 ## P0 — safe foundation
 
-- [ ] PASSPORT-001 — Record one verified maintenance event in a device passport.
+- [x] PASSPORT-001 — Record one verified maintenance event in a device passport. (Owner-checked and local-only; delivery tracked in the day-one report.)
 - [ ] PASSPORT-002 — Validate devices and add empty/error/deletion states.
 - [ ] PASSPORT-003 — Add PostgreSQL migrations and repository tests.
 - [ ] PASSPORT-004 — Specify offline conflicts, retry, duplicate-submit and recovery.
