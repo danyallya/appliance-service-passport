@@ -8,4 +8,4 @@
 
 **Next:** Record one verified maintenance event in a device passport.
 
-**Blockers:** GitHub connector cannot create repositories. Docker daemon and local cache need a live status check. Record exact checks and errors after every task.
+**Delivery:** Public repository created and foundation pushed to main. API check confirms public visibility. Docker daemon and local npm-cache connectivity still need a live check.
