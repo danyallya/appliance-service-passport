@@ -1,0 +1,1 @@
+export const projectInfo = { slug:"appliance-service-passport", title:"Appliance Service Passport", summary:"A QR-linked service history that owners and repairers can both understand.", scope:"passport", locale:"en", direction:"ltr", firstTask:"Record one verified maintenance event in a device passport.", entity:"devices" } as const;
