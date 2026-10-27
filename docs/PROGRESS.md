@@ -25,6 +25,6 @@ Docker service com.docker.service is stopped; Start-Service cannot open it with 
 
 **Not run:** Manual browser/offline, keyboard and screen-reader acceptance; the app does not contact a provider, database or source URL in this slice.
 
-**Review and delivery:** Start-of-day triage found no open Issues and six open PRs. PR #6 (preparation handoff) had successful CI and no comments/reviews. PRs #1–#5 were open with failing `verify` checks; the failed step was `actions/setup-node@v4`, while `npm ci` and `npm run verify` were skipped. The Vitest PR #4 proposes the version now pinned here. Exact final SHA, task PR and self-review comment are recorded in the central governance evidence and day ledger after publication.
+**Review and delivery:** Start-of-day triage found no open Issues and six open PRs. PR #6 (preparation handoff) had successful CI and no comments/reviews. PRs #1–#5 were open with failing `verify` checks; the failed step was `actions/setup-node@v4`, while `npm ci` and `npm run verify` were skipped. The Vitest PR #4 proposes the version now pinned here. Branch `device/day-001-passport-001-service-event` was pushed and [PR #7](https://github.com/danyallya/appliance-service-passport/pull/7) opened against PR #6; GitHub verification is in progress. Exact final SHA and self-review are recorded in the central governance evidence and day ledger.
 
 **Next:** Continue PASSPORT-002 after reviewing the preparation and dependency PRs; inspect the `setup-node` failure before relying on the older remote CI results.
