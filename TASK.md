@@ -18,4 +18,6 @@ The technical shell exists; the product workflow does not. Build the first safe,
 
 ## Status
 
-Not started. Use device/001-passport. After acceptance passes, update progress and set the next task.
+Completed locally on 2026-10-27 in `device/day-001-passport-001-service-event`. The source-attested maintenance event flow, Dexie draft/event storage, source and date validation, private/approval-recorded state, deletion and domain tests are implemented. `npm run verify` passes. Manual screen-reader and offline browser acceptance remain for PASSPORT-007/PASSPORT-008.
+
+**Next:** PASSPORT-002 — Validate devices and add empty/error/deletion states. This slice includes baseline validation, empty state and deletion; the next task covers the broader state and recovery behavior.
