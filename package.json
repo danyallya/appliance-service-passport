@@ -13,7 +13,7 @@
     "verify": "npm run typecheck && npm run test && npm run lint && npm run build"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "4.3.3",
+    "@tailwindcss/postcss": "4.3.5",
     "dexie": "4.4.7",
     "next": "16.4.3",
     "pg": "8.23.1",
